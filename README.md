@@ -1,10 +1,12 @@
-# pwndbg-themes
+# Pwndbg Themes by andry968 for fun
 
-16 fully customized [pwndbg](https://github.com/pwndbg/pwndbg) themes, a `theme-switch` command, and an installer.
+16 fully customized [pwndbg](https://github.com/pwndbg/pwndbg) themes, a `theme-switch` command, and an installer. Tested on **Debian Based Distribution**
 
 ## Install
 
 ```bash
+git clone https://github.com/andry968/pwndbg-themes.git
+cd pwndbg-themes
 chmod +x install.sh
 ./install.sh
 ```
@@ -27,6 +29,36 @@ theme-switch random     surprise me
 ```
 
 Tab completion works. The last theme is re-applied on every gdb start.
+
+## Sample
+1. Dracula
+<img width="1920" height="1003" alt="dracula" src="https://github.com/user-attachments/assets/06aed0e1-ef65-4196-a2da-52d7ca67e85c" />
+
+---
+
+2. Nord
+<img width="1920" height="1003" alt="nord" src="https://github.com/user-attachments/assets/8a8508d6-f61a-4123-8e33-b0eef66752a1" />
+
+---
+
+3. Noir
+<img width="1920" height="1003" alt="noir" src="https://github.com/user-attachments/assets/be12422b-fb80-47b3-a0f2-e46ae3508a3c" />
+
+---
+
+4. Cyberpunk
+<img width="1920" height="1003" alt="cyberpunk" src="https://github.com/user-attachments/assets/5af92f63-9c7e-4ad3-877c-e232be26af98" />
+
+---
+
+5. Synthwave
+<img width="1920" height="1003" alt="synthwave" src="https://github.com/user-attachments/assets/652c5676-364e-4e5f-ad8b-767cb68e7fea" />
+
+---
+
+6. Emberlight
+<img width="1920" height="1003" alt="emberlight" src="https://github.com/user-attachments/assets/e33bbb9a-2441-4bd0-842d-4e89109e704b" />
+
 
 ## Themes
 
@@ -65,3 +97,6 @@ Tab completion works. The last theme is re-applied on every gdb start.
 ```bash
 ./uninstall.sh   # removes only files installed by this repo + the .gdbinit block
 ```
+
+## LICENSE
+[MIT License](LICENSE)
